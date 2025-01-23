@@ -16,7 +16,7 @@ import { WeatherDetails } from './components/WeatherDetails';
 
 function App() {
 
-  let apiKey = 'bad59b33eb420ab7685697859b9d9e11';
+  let apiKey = '<API_KEY>';
   const [text, setText] = useState('Chennai');
 
   const [icon, setIcon] = useState(snowIcon);
